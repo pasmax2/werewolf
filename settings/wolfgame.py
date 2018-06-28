@@ -76,10 +76,9 @@ LYNCH_MESSAGES = ("The villagers, after much debate, finally decide on lynching 
 import botconfig
 
 RULES = (botconfig.CHANNEL + " channel rules: 1) Be nice to others. 2) Do not share information "+
-         "after death. 3) No bots allowed. 4) Do not play with clones.\n"+
-         "5) Do not quit unless you need to leave. 6) No swearing and keep it "+
-         "family-friendly. 7) Do not paste PM's from the bot during the game. "+
-         "8) Use common sense. 9) Waiting for timeouts is discouraged.")                                              
+         "after death. 3) Do not play with clones. (more clients for one player)\n"+
+         "4) Do not quit unless you need to leave. 5) Do not paste PM's from the bot during the game. "+
+         "6) Waiting for timeouts is discouraged. | For additonal rules see scoutlink.net/rules"                                              
 
 # Other settings:
 START_WITH_DAY = False
