@@ -39,14 +39,14 @@ def generate(fdict, permissions=True, **kwargs):
                                   if fnmatch.fnmatch(cloak.lower(), ptn.lower())]:
                         return f(*largs)
                     elif cloak:
-                        largs[0].notice(nick, "You are not the owner.")
+                        largs[0].notice(nick, "You are not a developer or Coordinator.") #Changed bot owner to Developer / Coordinator
                         return
                 if admin_only:
                     if cloak and [ptn for ptn in botconfig.ADMINS+botconfig.OWNERS
                                   if fnmatch.fnmatch(cloak.lower(), ptn.lower())]:
                         return f(*largs)
                     elif cloak:
-                        largs[0].notice(nick, "You are not an admin.")
+                        largs[0].notice(nick, "You are not a Youth! Teammember.") # Changed Admin to teammember
                         return
                 return f(*largs)
             alias = False
