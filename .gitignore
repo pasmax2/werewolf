@@ -1,1 +1,4 @@
 botconfig.py
+errors.log
+*.pyc
+*.sqlite3
