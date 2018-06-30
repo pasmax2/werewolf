@@ -22,7 +22,7 @@ ALLOW = {"cloakof/fwaiter": ("fwait",),
          "cloakof/?omeone_else": ("fday","fnight")}
 DENY = {}
 
-# Stop editing here
+# Please do not edit underneath this line!
 
 # Argument --debug means start in debug mode
 #          --verbose means to print a lot of stuff (when not in debug mode)
